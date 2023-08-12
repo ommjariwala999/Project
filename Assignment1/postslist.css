@@ -1,0 +1,56 @@
+/* Apply necessary styles to header and other elements */
+
+/* Styling for the post list */
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Styling for individual post card */
+.post-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 10px); /* Two posts per row */
+    margin-bottom: 20px;
+}
+
+.post-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for username, post heading, and text */
+.username {
+    font-weight: bold;
+}
+
+.post-heading {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.post-text {
+    margin-top: 5px;
+    max-height: 3em; /* Display up to three lines */
+    overflow: hidden;
+}
+
+/* Styling for delete icon */
+.delete-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+/* Styling for ellipsis icon */
+.ellipsis {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    color: #aaa;
+    cursor: pointer;
+}
